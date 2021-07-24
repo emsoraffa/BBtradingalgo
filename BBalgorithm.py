@@ -13,7 +13,7 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 root = Tk()
-root.title("Twotribes1985 trading algorithm")
+root.title("BB trading algorithm")
 root.geometry("800x600")
 
 path = resource_path("bg.jpg")
